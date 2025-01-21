@@ -27,6 +27,9 @@ Both services are containerized using Docker and can be run together using `dock
 ## Live Link
 [Live Link](https://kuyua-test-frontend.vercel.app)
 
+To navigate to the search page click on the All Location Card
+[Search page](https://kuyua-test-frontend.vercel.app/search)
+
 ---
 
 ## Setup Instructions
