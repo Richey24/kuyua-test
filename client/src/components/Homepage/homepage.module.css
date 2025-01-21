@@ -1,0 +1,260 @@
+.headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &>div:first-child {
+        display: flex;
+        align-items: baseline;
+        column-gap: 10px;
+
+        &>h1 {
+            font-size: 45px;
+            margin: 0px;
+            font-weight: 700;
+        }
+
+        &>p {
+            font-size: 24px;
+            margin: 0px;
+            color: grey;
+        }
+    }
+}
+
+.headerLogo {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+
+.allLocationBox {
+    width: 55%;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #000000;
+    padding: 5px 20px;
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.allLocationBoxFirst {
+    width: 50%;
+    border-radius: 14px;
+    background-color: #515150;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.allLocationBoxFirst>h1 {
+    font-size: clamp(50px, 10vw, 135px);
+    font-weight: 700;
+    color: white;
+    margin: 0px;
+    line-height: 120px;
+    margin-top: -30px;
+}
+
+.allLocationBoxFirst>p {
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.allLocationBoxLast>h1 {
+    font-size: 44px;
+    font-weight: 700;
+    color: white;
+    margin: 0px;
+    line-height: 43px;
+    text-transform: uppercase;
+}
+
+.allLocationBoxLast>p {
+    color: white;
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.chartContainer {
+    width: 20%;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #D3D3D3;
+    padding: 5px 20px;
+
+    &>div:first-child {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+
+        &>div {
+            display: flex;
+            align-items: center;
+            column-gap: 6px;
+
+            &>div {
+                width: 18px;
+                height: 18px;
+                border-radius: 18px;
+            }
+
+            &>p {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+.doughtnutChart {
+    height: 80%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.buttonsContainer {
+    width: 20%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3px;
+
+    &>button {
+        width: 100%;
+        height: 85px;
+        background-color: #000000;
+        color: white;
+        border-radius: 40px;
+        font-size: 30px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+
+.exploreContainer {
+    width: 55%;
+    height: 380px;
+    border-radius: 30px;
+    background-color: #000000;
+    padding: 15px 30px;
+    display: flex;
+    column-gap: 25px;
+    align-items: flex-start;
+
+    &>div:first-child {
+        width: 50%;
+
+        &>h1 {
+            font-size: 44px;
+            font-weight: 700;
+            color: white;
+            margin: 0px;
+            text-transform: uppercase;
+        }
+
+        &>p {
+            color: white;
+            font-size: 16px;
+            margin: 0px;
+            max-width: 340px;
+        }
+    }
+}
+
+.profileContainer {
+    width: 45%;
+    height: 380px;
+    border-radius: 30px;
+    background-color: #D3D3D3;
+    padding: 15px 30px;
+
+    &>div:first-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &>h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0px;
+            text-transform: uppercase;
+        }
+
+        &>div {
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+
+            &>div {
+                display: flex;
+                align-items: center;
+                column-gap: 6px;
+
+                &>div {
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 18px;
+                }
+
+                &>p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.profileData {
+    width: 100%;
+    margin-top: 20px;
+
+    &>div {
+        display: flex;
+        align-items: center;
+
+        &>p {
+            width: 160px;
+            text-align: right;
+            margin-right: 20px;
+        }
+
+        &>div {
+            width: 70px;
+            height: 70px;
+            border-radius: 70px;
+        }
+    }
+}
+
+.placeRow {
+    display: flex;
+    margin-top: 5px;
+    padding-left: 180px;
+    text-align: center;
+
+    &>div {
+        width: 70px;
+
+        &>p {
+            margin: 0px;
+            font-size: 12px;
+        }
+    }
+}

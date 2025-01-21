@@ -1,0 +1,37 @@
+.page {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.firstBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.secondBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 750px) {
+  .page {
+    padding: 30px;
+  }
+  .firstBox,
+  .secondBox {
+    flex-direction: column;
+
+    &>div {
+      width: 100%;
+    }
+  }
+}

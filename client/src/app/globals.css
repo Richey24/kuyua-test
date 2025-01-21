@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/switzer');
+
+:root {
+  font-family: Switzer;
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+  z-index: 999;
+}
+
+.mapboxgl-popup-content {
+  padding: 10px;
+  font-size: 14px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+  border-bottom-color: white;
+}
+
+.mapboxgl-canvas-container {
+  max-width: 200px;
+}
+
+.p-skeleton {
+  margin-top: 10px !important;
+  background-color: #D3D3D390;
+}
+
+.p-skeleton::after {
+  background-color: #D3D3D3;
+}

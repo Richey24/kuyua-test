@@ -1,0 +1,194 @@
+.headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerFirst {
+    display: flex;
+    align-items: baseline;
+    column-gap: 10px;
+
+    &>h1 {
+        font-size: 49px;
+        margin: 0px;
+        font-weight: 700;
+    }
+
+    &>p {
+        font-size: 30px;
+        text-transform: uppercase;
+        margin: 0px;
+        color: grey;
+    }
+}
+
+.headerLast {
+    display: flex;
+    align-items: center;
+
+    &>svg {
+        cursor: pointer;
+    }
+
+    &>p {
+        margin: 0px;
+    }
+}
+
+.searchContainer {
+    padding: 40px 150px;
+}
+
+.searchInput {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+
+    &>input {
+        width: 13%;
+        height: 45px;
+        border-radius: 25px;
+        background-color: #D3D3D350;
+        border: none;
+        outline: none;
+        padding-left: 20px;
+    }
+
+    &>button {
+        width: 18%;
+        height: 45px;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.inputBox {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #D3D3D350;
+
+    &>input {
+        width: 75%;
+        height: 99%;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        background-color: inherit;
+        padding-left: 20px;
+    }
+
+    &>div {
+        background-color: black;
+        width: 25%;
+        height: 99%;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
+
+.sortBox {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #D3D3D350;
+    padding: 0px 20px;
+
+    &>div {
+        display: flex;
+        align-items: center;
+        column-gap: 2px;
+
+        &>input {
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            appearance: none;
+            border-radius: 100%;
+        }
+
+        &>label {
+            height: 20px;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        &>input:checked {
+            background-color: black;
+        }
+    }
+}
+
+.resultBox {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #D3D3D350;
+    margin-top: 20px;
+}
+
+.resultTitle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+
+    &>p {
+        text-align: center;
+        width: 20%;
+        text-transform: uppercase;
+    }
+
+    &>p:nth-child(2) {
+        text-align: left;
+        margin-left: 1px;
+    }
+
+    &>p:nth-child(4) {
+        width: 32%;
+        text-align: left;
+    }
+}
+
+.resultMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    background-color: #131312;
+    padding: 4px 20px;
+    border-radius: 45px;
+    margin-top: 4px;
+
+    &>p {
+        text-align: center;
+        width: 20%;
+        color: white;
+        margin: 0px;
+    }
+
+    &>p:nth-child(2) {
+        color: green;
+        text-align: left;
+    }
+
+    &>p:nth-child(4) {
+        width: 32%;
+        text-align: left;
+    }
+}
